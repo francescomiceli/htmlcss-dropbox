@@ -13,6 +13,10 @@ h1 {
     width: 715px;
 }
 
+.margin{
+    margin-left: 75px;
+}
+
 .mt-1{
     margin-top: 30px;
 }
@@ -20,6 +24,11 @@ h1 {
 p{
     margin-top: 0px;
 }
+
+.header, .txt-left {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container-xl{
     width: 100%;
     padding: 10px;
@@ -32,12 +41,22 @@ p{
     display: flex;
 }
 
+.container-m{
+    width: 70%;
+    height: 800px;
+    margin: 70px auto;
+    padding: 10px;
+    border: 1px solid red;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    background-color: #fff;
+    z-index: 10;
 }
 
 .header li{
@@ -71,8 +90,9 @@ p{
 }
 
 .cover{
-    height: 80vh;
+    height: 90vh;
     background-color: #B4D0E7;
+    padding-top: 100px;
 }
 
 .tx-left{
@@ -82,7 +102,6 @@ p{
     height: 350px;
     flex-grow: 1;
     position: relative;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
 }
 
