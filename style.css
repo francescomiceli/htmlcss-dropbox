@@ -5,7 +5,7 @@ body, html{ font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, "Se
 ol,ul{list-style-type: none;}
 
 a{text-decoration: none;}
-hr{border:none; border-bottom: 1px solid #ddd}
+hr{width: 60px; margin-left: 0px;}
 
 h1 {
     font-size: 55px;
@@ -13,19 +13,21 @@ h1 {
     width: 715px;
 }
 
-.margin{
-    margin-left: 75px;
-}
+.margin{margin-left: 75px;}
 
-.mt-1{
-    margin-top: 30px;
-}
+.mt-1{margin-top: 30px;}
+
+.mt-2{margin-top: 60px;}
+
+.mb-1{margin-bottom: 50px;}
+
+.tc{text-align: center;}
 
 p{
     margin-top: 0px;
 }
 
-.header, .txt-left {
+.header, .txt-left, p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -43,8 +45,8 @@ p{
 
 .container-m{
     width: 70%;
-    height: 800px;
-    margin: 70px auto;
+    height: 1000px;
+    margin: 90px auto;
     padding: 10px;
     border: 1px solid red;
 }
@@ -57,6 +59,7 @@ p{
     position: fixed;
     background-color: #fff;
     z-index: 10;
+    border-bottom: 1px solid gray;
 }
 
 .header li{
@@ -115,12 +118,46 @@ p{
     background-color: white;
 }
 
-.fa-solid{
+.fa-arrow-down{
     position: absolute;
     bottom: 15px;
     transition: 0.5s;
 }
 
-.fa-solid:hover{
+.fa-arrow-down:hover{
     transform: translate(0px, 10px);
+}
+
+.card{
+    border: 1px solid gray;
+    width: 300px;
+    height: 800px;
+}
+
+.c-head{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 5px;
+}
+
+.c-head p {
+    margin-bottom: 0;
+}
+
+.c-body{
+    padding: 20px;
+}
+
+.c-body li{
+    list-style-type: none;
+}
+
+.c-body li::before{
+    content: "\f00c";
+}
+
+.light{
+    color: lightgray;
 }
