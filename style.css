@@ -142,7 +142,7 @@ img{width: 100%;}
 
 .img-right{
     width: 70%;
-    border: 1px solid red;
+    
 }
 
 .cover{
@@ -168,12 +168,12 @@ img{width: 100%;}
 .container-xl{
     width: 100%;
     padding: 10px;
-    border: 1px solid red;
+    
 }
 
 .container-xll{
     width: 100%;
-    border: 1px solid red;
+    
 }
 
 .container-l{
@@ -188,13 +188,13 @@ img{width: 100%;}
 .container-m{
     width: 1100px;
     margin: 90px auto;
-    border: 1px solid red;
+    
 }
 
 .container-s{
     width: 1060px;
     margin: 0px auto;
-    border: 1px solid red;
+    
     align-content: flex-start;
 }
 
@@ -256,7 +256,7 @@ img{width: 100%;}
 /* Carte */
 
 .carta{
-    border: 1px solid red;
+    
     height: auto;
     width: calc(100% / 3);
     padding: 45px;
@@ -296,14 +296,29 @@ img{width: 100%;}
 
 /* FOOTER */
 
+.footer{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    color: white;
+}
 
+.footer a{
+    color: white;
+}
 
+.carte{
+    width: calc(100% / 5);
+}
 
+.border{
+    border-top: 1px solid white;
+    width: 70px;
+}
 
-
-
-
-
+.language{
+    margin: 5px;
+}
 
 
 /* Colors */
