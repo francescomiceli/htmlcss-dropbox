@@ -5,10 +5,7 @@ body, html{ font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, "Se
 ol,ul{list-style-type: none;}
 
 a{text-decoration: none;}
-hr{width: 60px; margin-left: 0px;}
-
-
-
+hr{width: 100%; margin-left: 0px;}
 
 /* HELPERS */
 
@@ -32,10 +29,10 @@ h1 {
 
 .mb-1{margin-bottom: 50px;}
 
-img{
-    width: 100%;
-}
+.mb-2{margin-bottom: 100px;}
 
+
+img{width: 100%;}
 
 /* FLEXBOX */
 
@@ -92,7 +89,8 @@ img{
     background-color: #fff;
     padding: 10px;
     height: fit-content;
-    width: fit-content;
+    width: 280px;
+    text-align: center;
     
 }
 
@@ -178,8 +176,6 @@ img{
     border: 1px solid red;
 }
 
-
-
 .container-l{
     width: 1200px;
     margin: 0px auto;
@@ -200,7 +196,6 @@ img{
     margin: 0px auto;
     border: 1px solid red;
     align-content: flex-start;
-
 }
 
 /* SECTION */
@@ -247,7 +242,6 @@ img{
 
 .img-box{
     width: 60%;
-    
 }
 
 .text{
@@ -294,6 +288,22 @@ img{
 .testo{
     padding: 35px;
 }
+
+.questions{
+    
+    justify-content: space-between;
+}
+
+/* FOOTER */
+
+
+
+
+
+
+
+
+
 
 
 /* Colors */
