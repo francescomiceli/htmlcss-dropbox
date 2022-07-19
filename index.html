@@ -18,7 +18,9 @@
     <header>
         <div class="header container-xl">
             <div class="list-1">
-               <a href="#"><img id="logo" src="img/logo-small.png" alt=""></a>
+               <div><a href="#">
+                <img  src="img/logo-small.png" alt=""></a>
+               </div>
                 <ul>
                     <li><a href="#"></li>Perchè</a>
                     <li><a href="#"></li>Funzioni</a>
@@ -31,12 +33,12 @@
                     <li><a href="#"></li>Supporto</a>
                     <li><a href="#"></li>Contatta l'ufficio</a>
                     <li><a href="#"></li>Accedi</a>
-                    <li class="btn-blue"><a href="#">Inizia</li></a>
+                    <a href="#"><li class="btn-blue">Inizia</li></a>
                 </ul>
         </div>
     </header>
 
-    <!-- COVER -->
+    <!-- JUMBOTRON -->
         <div class="cover container-xl">
             <div class="container-l">
                 <h1>Tutto ciò che ti serve per il lavoro in un unico posto</h1>
@@ -50,39 +52,57 @@
                     <i class="fa-solid fa-arrow-down fa-2x"></i>
                     
                 </div>
-                    <img class="img-right" src="img/jumbo.png" alt="immagine">
-            </div>
+                    <div class="img-right">
+                        <img src="img/jumbo.png" alt="immagine">
+                    </div>
+                </div>
         </div>
+
+        <!-- PRICES -->
     <main>
         <section class="section container-m mt-1">
-            <h2>Prova il business che fa per te</h2>
-            <input class="mt-1" type="checkbox" id="" name="" value=""><label for="vehicle1"> Fatturazione Mensile</label>
-            <input class="margin" type="checkbox" id="" name="" value=""><label for="vehicle1"> Fatturazione Mensile</label>
+            <h2 class="m-2">Prova il business che fa per te</h2>
+            <input class="mt-1 m-2" type="radio" id="" name="" value="">
+            <label for=""> Fatturazione Mensile</label>
+            <input class="margin m2" type="radio" id="" name="" value="">
+            <label for=""> Fatturazione Mensile</label>
 
-            <div class="card mt-2">
+
+            <div class="flex">
+                <div class="card flex mt-2">
+                    <div class="c-head">
+                        <p><i class="fa-solid fa-user"></i> Singolo</p>
+                    </div>
+                    <div class="c-body">
+                        <h3>Professional</h3>
+                        <strong><p>&#8364; 12.00</p></strong>
+                        <p class="light mb-1">/mese</p>
+                        <p><i class="fa-solid fa-user"></i> 1 Utente</p>
+                        <p><i class="fa-solid fa-folder"></i> 5 Tb di spazio d'Archiviazione sicuro</p>
+                        <p><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice</p>
+                        <p class="btn-blue mt-2"><a href="#">Prova Gratis per 30 giorni</a></p>
+                        <p class="mt-1">oppure<a href="#"> acquista ora</a></p>
+                        <hr class="mt-2">
+                        <h4 class="mt-2">Punti salienti del piano</h4>
+                        <ul>
+                            <li>Invia file fino a 100 GB con Dropbox Transfer</li>
+                            <li>Invia file fino a 100 GB con Dropbox Transfer</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+
+            <div class="element">
                 <div class="c-head">
                     <p><i class="fa-solid fa-user"></i> Singolo</p>
                 </div>
-                <div class="c-body">
-                    <h3>Professional</h3>
-                    <strong><p>&#8364; 12.00</p></strong>
-                    <p class="light mb-1">/mese</p>
-                    <p><i class="fa-solid fa-user"></i> 1 Utente</p>
-                    <p><i class="fa-solid fa-folder"></i> 5 Tb di spazio d'Archiviazione sicuro</p>
-                    <p><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice</p>
-                    <p class="btn-blue mt-2"><a href="#">Prova Gratis per 30 giorni</a></p>
-                    <p class="mt-1">oppure<a href="#"> acquista ora</a></p>
-                    <hr class="mt-2">
-                    <h4>Punti salienti del piano</h4>
-                    <ul class="c-body">
-                        <li>Invia file fino a 100 GB con Dropbox Transfer</li>
-                        <li>Invia file fino a 100 GB con Dropbox Transfer</li>
-                    </ul>
-                    
+            </div>
 
-
-                    
-                </div>
+            <div class="img-right">
+                <img src="img/partner.png" alt="">
             </div>
         </section>
     </main>
