@@ -36,6 +36,9 @@ img{
     width: 100%;
 }
 
+
+/* FLEXBOX */
+
 .flex{
     display: flex;
 }
@@ -44,8 +47,17 @@ img{
     flex-direction: column;
 }
 
+.row{
+    flex-direction: row;
+}
+
 .wrap{
     flex-wrap: wrap;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
 }
 
 /* Elements */
@@ -68,10 +80,23 @@ img{
     height: fit-content;
     width: fit-content;
     border: 1px solid gray;
-    margin-top: 50px;
+    margin-top: 120px;
 }
 
 .btn-trans a {
+    color: black;
+}
+
+.btn-wht{
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+    
+}
+
+.btn-wht a {
     color: black;
 }
 
