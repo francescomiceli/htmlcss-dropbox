@@ -8,6 +8,8 @@ a{text-decoration: none;}
 hr{width: 60px; margin-left: 0px;}
 
 
+
+
 /* HELPERS */
 
 h1 {
@@ -246,11 +248,62 @@ img{
 .group{
     width: calc(100% / 3);
     height: 400px;
-    border: 1px solid red;
     }
 
 .box{
-    border: 1px solid red;
     width: calc(100% / 2);
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img{
+    width: 50%;
+}
+
+.scale{
+    width: 70%;
+    padding: 35px;
+}
+
+.testo{
+    padding: 35px;
+}
+
+
+/* Colors */
+.green{
+    background-color: #A2D39B;
+}
+
+.brown{
+    background-color: #61082B;
+}
+
+.azure{
+    background-color: #0093CE;
+}
+
+.light-red{
+    background-color: #FF1C1C;
+}
+
+.red{
+    background-color: #D5001F;
+}
+
+.light-azure{
+    background-color: #B4D0E7;
+}
+
+.dark-blue{
+    background-color: #0D2481;
+}
+
+.yellow{
+    background-color: #FFD830;
+}
+
+.gray{
+    background-color: #F5F5F5;
 }
