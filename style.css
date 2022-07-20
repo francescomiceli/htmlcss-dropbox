@@ -15,6 +15,10 @@ h1 {
     width: 715px;
 }
 
+h3,h2{margin: 0px;}
+
+.fontx3{font-size: 3rem; color: #61082B;}
+
 .w-100{width: 100%;}
 
 .ta{text-align: center;}
@@ -153,7 +157,13 @@ img{width: 100%;}
     color: black;
 }
 
-.header a:hover{
+.nav li:hover{
+    color: black;
+    border-bottom: 1px solid black;
+    margin-top: 2px;
+}
+
+.list-2 li:hover{
     color: black;
     border-bottom: 1px solid black;
     margin-top: 2px;
@@ -222,7 +232,11 @@ img{width: 100%;}
 .container-m{
     width: 1100px;
     margin: 90px auto;
-    
+}
+
+.container-m--no_margin{
+    margin: 0 auto;
+    padding: 60px 0px;
 }
 
 .container-s{
@@ -233,8 +247,6 @@ img{width: 100%;}
 }
 
 /* SECTION */
-
-
 
 .card{
     display: flex;
@@ -275,11 +287,18 @@ img{width: 100%;}
     padding-left: 0px;
 }
 
+.c-body li{
+    position: relative;
+    padding-left: 15px;
+}
+
 .c-body ul li:before {
     list-style-type: none;
     font-family: 'FontAwesome';
     content: "\f00c";
     color: #0061FF;
+    position: absolute;
+    left: -10px;
    
 }
 
@@ -343,7 +362,8 @@ img{width: 100%;}
     justify-content: center;
     align-items: center;
     background-color: white;
-    transition: 0.5s;;
+    border: 5px solid transparent;
+    transition: 0.1s;;
 }
 
 .box:hover{
@@ -369,11 +389,11 @@ img{width: 100%;}
 }
 
 .text-q{
-    display: block;
+    display: none;
 }
 
-.text-q p:hover{
-    display: none;
+.container-box:hover .text-q{
+    display: block;
 }
 
 /* FOOTER */
