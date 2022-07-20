@@ -15,6 +15,10 @@ h1 {
     width: 715px;
 }
 
+.w-100{width: 100%;}
+
+.ta{text-align: center;}
+
 .m-2{margin: 20px;}
 
 .margin{margin-left: 75px;}
@@ -65,10 +69,29 @@ img{width: 100%;}
     padding: 10px;
     height: fit-content;
     width: fit-content;
+    display: inline-block;
+}
+
+.btn-blue--w100{
+    background-color: #0061FF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
 }
 
 .btn-blue a {
-    color: white;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.btn-blue:hover {
+    opacity: 0.9;
+    
+}
+
+.tx-left i{
+    font-size: 2.5rem;
 }
 
 .btn-trans{
@@ -130,6 +153,17 @@ img{width: 100%;}
     color: black;
 }
 
+.header a:hover{
+    color: black;
+    border-bottom: 1px solid black;
+    margin-top: 2px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
 .tx-left{
     display: flex;
     flex-direction: column;
@@ -155,7 +189,7 @@ img{width: 100%;}
 
 .fa-arrow-down{
     position: absolute;
-    bottom: 15px;
+    bottom: 1px;
     transition: 0.5s;
 }
 
@@ -200,18 +234,25 @@ img{width: 100%;}
 
 /* SECTION */
 
-.list-1{
-    display: flex;
-    align-items: center;
-}
+
 
 .card{
     display: flex;
     flex-direction: column;
     border: 1px solid gray;
     width: calc(100% / 3);
-    height: 1000px;
+    height: 1100px;
     margin: 25px 20px;
+}
+
+.card a{
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+.meet a{
+    color: #0000EE;
+    text-decoration: underline; 
 }
 
 .c-head{
@@ -223,11 +264,23 @@ img{width: 100%;}
 }
 
 .c-head p {
-    margin-bottom: 0;
+    margin: 5px;
 }
 
 .c-body{
     padding: 20px;
+}
+
+.c-body ul{
+    padding-left: 0px;
+}
+
+.c-body ul li:before {
+    list-style-type: none;
+    font-family: 'FontAwesome';
+    content: "\f00c";
+    color: #0061FF;
+   
 }
 
 .light{
@@ -236,8 +289,23 @@ img{width: 100%;}
 
 .enterprise{
     border: 1px solid gray;
-    height: 200px;
+    height: 240px;
     margin: 0 20px;
+}
+
+.content{
+    padding: 15px;
+}
+
+.side-l{
+    width: 660px;
+    padding: 10px;
+}
+
+.side-r{
+    padding: 10px;
+    width: 364px;
+    justify-content: flex-end;
 }
 
 .img-box{
@@ -274,10 +342,17 @@ img{width: 100%;}
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    transition: 0.5s;;
+}
+
+.box:hover{
+    border: 5px solid white;
 }
 
 .box img{
     width: 50%;
+    filter: invert(1);
 }
 
 .scale{
@@ -305,6 +380,7 @@ img{width: 100%;}
 
 .footer a{
     color: white;
+    
 }
 
 .carte{
@@ -313,13 +389,17 @@ img{width: 100%;}
 
 .border{
     border-top: 1px solid white;
+    width: 95px;
+}
+
+.border--black{
+    border-top: 1px solid black;
     width: 70px;
 }
 
-.language{
-    margin: 5px;
+.language > *{
+    padding: 5px;
 }
-
 
 /* Colors */
 .green{
